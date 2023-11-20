@@ -1,0 +1,23 @@
+module fifotb #(parameter DSIZE = 8, parameter ASIZE = 4);
+
+	logic  [DSIZE-1:0] rdata;
+	logic              wfull;
+	logic              rempty;
+	logic  [DSIZE-1:0] wdata;
+	logic              winc, wclk, wrst_n;
+	logic              rinc, rclk, rrst_n;
+
+	beh_fifo firstinfirstout (
+		.rdata(rdata),
+		.wfull(wfull),
+		.rempty(rempty),
+		.wdata(wdata),
+		.winc(winc),
+		.wclk(wclk),
+		.wrst_n(wrst_n),
+		.rinc(rinc),
+		.rclk(rclk),
+		.rrst_n(rrst_n)
+	);
+
+endmodule

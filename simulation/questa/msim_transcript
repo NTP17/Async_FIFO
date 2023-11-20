@@ -1,0 +1,336 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do feeFIFOfum_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/22.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/Lab3/MiNE {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/fFFf.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 00:33:46 on Oct 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/fFFf.v 
+# -- Compiling module fFFf
+# 
+# Top level modules:
+# 	fFFf
+# End time: 00:33:46 on Oct 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/Lab3/MiNE {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/dual_RAM.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 00:33:46 on Oct 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/dual_RAM.v 
+# -- Compiling module dual_RAM
+# 
+# Top level modules:
+# 	dual_RAM
+# End time: 00:33:46 on Oct 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/Lab3/MiNE {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/controller.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 00:33:46 on Oct 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 00:33:46 on Oct 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/Lab3/MiNE {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/testFIFObench.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 00:33:46 on Oct 21,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/testFIFObench.sv 
+# -- Compiling module testFIFObench
+# 
+# Top level modules:
+# 	testFIFObench
+# End time: 00:33:46 on Oct 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ngtph/OneDrive/university\ courses/Logic\ Synthesis\ (EE4449_TT01)/Labs/DONE/Lab3/MiNE {C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/altera_mf.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 00:33:46 on Oct 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE" C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 00:33:47 on Oct 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testFIFObench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testFIFObench 
+# Start time: 00:33:48 on Oct 21,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/fFFf.v(64): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst'.  Expected 16, found 14.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/fFFf.v(64): (vopt-2718) [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/fFFf.v(64): (vopt-2718) [TFMPC] - Missing connection for port 'data_a'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading sv_std.std
+# Loading work.testFIFObench(fast)
+# Loading work.fFFf(fast)
+# Loading work.dual_RAM(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.controller(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# @1: Test Case 1 - Full and Empty flag must NEVER BOTH be 1: PASSED
+# @1: Test Case 2 - No operation can be carried when reset is raised: PASSED
+# @3: Test Case 1 - Full and Empty flag must NEVER BOTH be 1: PASSED
+# @5: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @7: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @9: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @11: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @13: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @15: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @17: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @19: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @21: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @23: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @25: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @27: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @29: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @31: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @33: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @35: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @37: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @39: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @41: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @43: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @45: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @47: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @49: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @51: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @53: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @55: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @57: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @59: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @61: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @63: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @65: Test Case 1 - Full and Empty flag must NEVER BOTH be 1: PASSED
+# @65: Test Case 3 - On write operation, both flags should be 0, write pointer and used words should increment by 1, and read pointer should stay the same: PASSED
+# @69: Test Case 6 - Nothing should happen when attempting to write to a full FIFO: PASSED
+# @71: Test Case 1 - Full and Empty flag must NEVER BOTH be 1: PASSED
+# @72: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @73: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @74: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @75: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @76: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @77: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @78: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @79: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @80: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @81: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @82: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @83: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @84: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @85: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @86: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @87: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @88: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @89: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @90: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @91: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @92: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @93: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @94: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @95: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @96: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @97: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @98: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @99: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @100: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @101: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @102: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @103: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @104: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @105: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @106: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @107: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @108: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @109: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @110: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @111: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @112: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @113: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @114: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @115: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @116: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @117: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @118: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @119: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @120: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @121: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @122: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @123: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @124: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @125: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @126: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @127: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @128: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @129: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @130: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @131: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @132: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @133: Test Case 1 - Full and Empty flag must NEVER BOTH be 1: PASSED
+# @133: Test Case 4 - On read operation, both flags should be 0, write pointer should stay the same, read pointer should increment by 1, and used words should decrement by 1: PASSED
+# @134: Test Case 7 - Data MUST be First In, First Out: PASSED
+# @137: Test Case 5 - Nothing should happen when attempting to read from an empty FIFO: PASSED
+# @143: Test Case 9 - When empty, attempting to read and write at the same time should be the same as Test Case 3: PASSED
+# @145: Test Case 8 - When neither empty nor full, attempting to read and write at the same time should increment both write and read pointer by 1, and used words should stay the same: PASSED
+# @211: Test Case 10 - When full, attempting to read and write at the same time should be the same as Test Case 4: PASSED
+# ** Note: $stop    : C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/testFIFObench.sv(203)
+#    Time: 220 ps  Iteration: 0  Instance: /testFIFObench
+# Break in Module testFIFObench at C:/Users/ngtph/OneDrive/university courses/Logic Synthesis (EE4449_TT01)/Labs/DONE/Lab3/MiNE/testFIFObench.sv line 203
+# End time: 00:34:25 on Oct 21,2023, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 3

@@ -1,0 +1,37 @@
+module testFIFObench;
+
+	logic ar, rc, re, wc, we, f, e;
+	logic [23:0] din, dout;
+	
+	fFFf dut (
+		.read_clock(rc),
+		.write_clock(wc),
+		.async_reset(ar),
+		.read_enable(re),
+		.write_enable(we),
+		.data_in(din),
+		.FULL(f),
+		.EMPTY(e),
+		.data_out(dout)
+	);
+	
+	initial begin
+		ar = 'b0;
+		rc = 'b0;
+		re = 'b0;
+		wc = 'b0;
+		we = 'b0;
+		din = 'd0;
+		$dumpfile("firsttestfirstbench.vcd");
+		$dumpvars;
+	end
+	
+	initial #2 forever #2 din = din + 'd1;
+	
+	initial forever #1 wc = !wc;
+	
+	initial #1 we = 'b1;
+	
+	initial #70 $finish;
+
+endmodule

@@ -1,0 +1,5 @@
+empty -> cannot read -> read clock ignored
+
+full -> cannot write -> write clock ignored
+
+neither -> read and write clock valid -> both pointers can advance

@@ -1,0 +1,21 @@
+module flags_handler (
+	input [4:0] wptr, rptr
+	output full, empty, wclken, rclken
+);
+
+	always_comb
+		if (wptr+1 == rptr) begin
+			full  <= 1;
+			empty <= 0;
+		end else if (rptr == wptr) begin
+			full  <= 0;
+			empty <= 1;
+		end else begin
+			full  <= 0;
+			empty <= 0;
+		end
+
+	assign wclken = !full;
+	assign rclken = !empty;
+
+endmodule
